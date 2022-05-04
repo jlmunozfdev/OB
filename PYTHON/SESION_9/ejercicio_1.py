@@ -7,11 +7,14 @@ ordenados alfabéticamente y separados por comas. """
 
 
 
+# Asking the user to input a list of countries separated by a comma.
 entrada = input("Ingrese una lista de paises y sepáralos por una coma:\n")
 
+# Creating a list of unique countries from the input string.
 paises = sorted(list(set([pais for pais in entrada.split(",")])))
 
 
+# Printing the list of countries.
 print(paises)
 
 
