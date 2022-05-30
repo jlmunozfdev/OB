@@ -1,0 +1,45 @@
+/* Estilos para colores */
+.colores{
+    color:orangered;
+}
+
+.color-hexadecimal{
+    color: #f5cb5c
+}
+
+.color-rgb{
+    color: rgb(255,126,255)
+}
+
+.color-rgba{
+    color: rgba(126,124,189,0.4)
+}
+
+.fondos-container{
+    /* background-color: darkolivegreen; */
+/*     background-image: url("https://i2.wp.com/www.senpai.com.mx/wp-content/uploads/2020/10/Los-Caballeros-del-Zodiaco_-El-secreto-de-Shaka-de-Virgo-y-los-9-sentidos.jpg?fit=1280%2C720&ssl=1");*/
+   
+    background-image: url("img/imagen.jpg");
+    background-position: left bottom;
+}   
+
+/* Tamaños */
+
+.ancho{
+    background-color: beige;
+    width: 100px;
+}
+
+.alto{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150,150, 150);
+    border-width: 1px;
+    /* border-top: none; */
+    padding: 10px;
+    margin: 20px;
+}
