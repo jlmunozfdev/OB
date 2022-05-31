@@ -1,0 +1,24 @@
+.div-1, .div-2{
+    color: azure;
+    background-color: brown;
+  /*   display: block;  esto viene por defecto*/
+}
+
+.span-1{
+    background-color: aquamarine;
+    /* display: inline; Esto viene por defecto */
+    float: right;
+}
+
+
+.span-2{
+    background-color: aquamarine;
+    /* display: inline; Esto viene por defecto */
+    float: left;
+}
+
+.img-1{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
