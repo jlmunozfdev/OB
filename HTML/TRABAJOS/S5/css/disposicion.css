@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    background-color: greenyellow;
+}
+
+.container-galery{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+   
+}
+
+.galery{
+    width: 300px;
+   
+}
+
+
+
