@@ -201,7 +201,7 @@ input:focus {
 .form-field-username fieldset input {
     display: flex;
     margin-top: 5px;
-    width: 80%;
+    width: 81%;
     padding:10px 20px;
     border: none;
     border-radius: 8px;
@@ -213,7 +213,7 @@ input:focus {
 .form-field-email fieldset input{
     display: flex;
     margin-top: 5px;
-    width: 90%;
+    width: 91%;
     padding:10px 20px;
     border: none;
     border-radius: 8px;
@@ -224,7 +224,7 @@ input:focus {
 .form-field-password fieldset input{
     display: flex;
     margin-top: 5px;
-    width: 90%;
+    width: 91%;
     padding:10px 20px;
     border: none;
     border-radius: 8px;
