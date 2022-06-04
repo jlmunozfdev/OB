@@ -1,9 +1,265 @@
+/* RESET CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CONFIGURACIÓN GENERAL */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Oswald:wght@300&family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&family=Ubuntu:wght@300;400;500;700&display=swap');
 
-/* Conf Generales */
-/* 
-    margin:auto 0;
-    padding: 0;
+* {
     font-family: 'Ubuntu', sans-serif;
-    color: aliceblue;
-} */
+}
+
+body {
+    background-color: #161717;
+    color: #ccc;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 450px;
+}
+
+h1 {
+    font-size: 20pt;
+    font-weight: 700;
+    margin: 40px 0px 20px 0px;
+}
+
+
+/* CONFIGURACIÓN BOTONES REDES SOCIALES */
+
+/* GOOGLE */
+.social-buttons {
+    display: flex;
+    align-self: flex-start;
+    gap: 15px;
+    
+}
+
+.btn-google {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #1A73E7;
+    width: 250px;
+    cursor: pointer;
+}
+
+.btn-google picture {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.btn-google picture img {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.social-buttons button {
+    padding: 2px;
+}
+
+.social-buttons button span {
+    display: flex;
+    padding: 0px 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.btn-google:hover{
+    opacity: 0.6;
+}
+
+/* TWITTER */
+
+
+.btn-twitter {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-twitter picture img {
+    padding: 10px 14px;
+    width: 15px;
+    filter: opacity(0.6);
+}
+
+.btn-twitter:hover{
+    opacity: 0.6;
+}
+/* CONFIGURACIÓN SEPARADOR */
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+   
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator h3 {
+    color: #ccc;
+    opacity: 0.8;
+}
+/* CONFIGURACIÓN FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: 700;
+}
+
+input {
+    background-color: #212121;
+    color: #ccc;
+}
+
+input:hover {
+    
+    box-shadow: 0 0 4px #eb50ff4b;
+}
+
+input:focus {
+    box-shadow: 0 0 4px #454045;
+}
+
+/* CONFIGURACIÓN LABELS DE NOMBRE Y USUARIO */
+.form-field-group{
+    display: flex;
+    gap: 20px;
+}
+.form-field-username fieldset label {
+    margin-bottom: 10px;
+    padding-bottom: 10px ;
+}
+.form-field-username fieldset input {
+    display: flex;
+    margin-top: 5px;
+    width: 80%;
+    padding:10px 20px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+
+/* CONFIGURACIÓN LABEL EMAIL */
+.form-field-email fieldset input{
+    display: flex;
+    margin-top: 5px;
+    width: 90%;
+    padding:10px 20px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+/* CONFIGURACIÓN LABEL PASSWORD */
+
+.form-field-password fieldset input{
+    display: flex;
+    margin-top: 5px;
+    width: 90%;
+    padding:10px 20px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+/* CONFIGURACIÓN CHECKBOX */
+.form-field-checkbox{
+    display: flex;
+    gap: 5px;
+}
+
+.form-field-checkbox fieldset input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+/* CONFIGURACIÓN BOTÓN CREAR CUENTA */
+.form-field-account{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-field-account fieldset button{
+    border: none;
+    width: 450px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: #212121;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 12pt;
+}
+
+.form-field-account fieldset button:hover{
+    opacity: 0.6;
+}
