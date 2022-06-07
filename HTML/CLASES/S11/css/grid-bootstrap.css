@@ -1,0 +1,22 @@
+.row div {
+    margin: 0.25rem;
+}
+.col {
+    background-color: greenyellow;
+}
+
+.col-sm {
+    background-color: coral;
+}
+.col-md {
+    background-color: beige;
+}
+.col-lg {
+    background-color: darksalmon;
+}
+.col-xl {
+    background-color: deepskyblue;
+}
+.col-xxl {
+    background-color: lightsteelblue
+}
