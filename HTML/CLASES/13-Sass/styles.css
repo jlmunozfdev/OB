@@ -1,0 +1,64 @@
+@charset "UTF-8";
+.btn, .btn-2 {
+  border: none;
+  padding: 0.25 0.5rem;
+  color: #2b2b2b;
+}
+.btn:hover, .btn-2:hover {
+  background-color: cyan;
+  color: red;
+}
+
+.btn-2 {
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: azure;
+  min-height: 100vw;
+  padding: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  width: 50rem;
+  color: #3f3f3f;
+  text-transform: uppercase;
+  background-color: #4029c4;
+}
+
+p {
+  width: 50rem;
+  color: #3f3f3f;
+  text-transform: uppercase;
+  background-color: #c1baba;
+}
+
+.listado {
+  width: 10rem;
+  background-color: aquamarine;
+  padding: 0.5rem;
+}
+.listado ul {
+  margin: 0 0.5rem;
+}
+.listado ul li {
+  list-style: none;
+}
+.listado ul li:hover {
+  color: white;
+}
+
+/* Funciones con cadenas de texto */
+/* Funciones con números */
+/* Funciones con Listas */
+/* Funciones Selector */
+/* Funciones color */
+/*ejecuta el sass --watch styles.scss styles.css *//*# sourceMappingURL=styles.css.map */

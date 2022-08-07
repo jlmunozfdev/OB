@@ -1,0 +1,18 @@
+// Componentes 
+@use "./sass/componentes";
+
+// Mixins
+@use "./sass/mixins";
+
+// Estilos
+@use "./sass/estilos";
+
+//Paginas
+//Pagina principal
+//Página contacto
+
+
+//Otros
+@use "./sass/builtin";
+
+/*ejecuta el sass --watch styles.scss styles.css */
