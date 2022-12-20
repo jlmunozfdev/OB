@@ -1,0 +1,13 @@
+{
+  "name": "sesion_4",
+  "version": "1.0.0",
+  "description": "Primer programa en Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "saludar": "node holaMundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jlmunozfdev",
+  "license": "ISC"
+}
